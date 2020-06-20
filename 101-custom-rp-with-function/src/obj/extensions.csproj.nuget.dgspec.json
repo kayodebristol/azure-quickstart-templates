@@ -1,0 +1,69 @@
+{
+  "format": 1,
+  "restore": {
+    "c:\\Users\\kayod\\projects\\azure-quickstart-templates\\101-custom-rp-with-function\\src\\extensions.csproj": {}
+  },
+  "projects": {
+    "c:\\Users\\kayod\\projects\\azure-quickstart-templates\\101-custom-rp-with-function\\src\\extensions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\kayod\\projects\\azure-quickstart-templates\\101-custom-rp-with-function\\src\\extensions.csproj",
+        "projectName": "extensions",
+        "projectPath": "c:\\Users\\kayod\\projects\\azure-quickstart-templates\\101-custom-rp-with-function\\src\\extensions.csproj",
+        "packagesPath": "C:\\Users\\kayod\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\kayod\\projects\\azure-quickstart-templates\\101-custom-rp-with-function\\src\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\kayod\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.Azure.Management.ResourceManager.Fluent": {
+              "target": "Package",
+              "version": "[1.22.2, )"
+            },
+            "Microsoft.Azure.WebJobs.Extensions.Storage": {
+              "target": "Package",
+              "version": "[3.0.4, )"
+            },
+            "Microsoft.Azure.WebJobs.Script.ExtensionsMetadataGenerator": {
+              "target": "Package",
+              "version": "[1.1.*, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
